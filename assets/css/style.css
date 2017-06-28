@@ -278,9 +278,64 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px){
-  
+
+  .auth-image {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+  #main-container {
+    max-width: 768px;
+    width: 95%
+    
+  }
+
+.main-section {
+  width: 100%;
+  max-width: 768px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.sidebar {
+  float: right;
+  position: relative;
+  right: -18%; /* or right 50% */
+  text-align: left;
+  width: 100%;
+  max-width: none;
+  padding: 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+  .work {
+    width: 40%;
+  }
+
+    #logo{
+    margin-left: 0px;
+  }
+
+
 }
 
 @media screen and (max-width: 640px){
+  .auth-image {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
   
 }
